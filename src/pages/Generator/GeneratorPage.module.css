@@ -1,0 +1,39 @@
+.generatorText {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    text-align: center;
+    color: #201B10;
+}
+
+.submitButton {
+    height: 80px;
+    border-radius: 25px;
+    padding: 15px 27px;
+    background: #2AE881;
+    border: none;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 110%;
+    text-align: center;
+    color: #201B10;
+    margin-top: 20px;
+}
+
+.page {
+    width: auto;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0;
+}
+
+.body {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

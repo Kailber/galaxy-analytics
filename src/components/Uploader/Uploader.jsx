@@ -1,7 +1,4 @@
 import styles from './Uploader.module.css';
-import { useState } from 'react';
-import clearIcon from '../../assets/clear.svg';
-import loaderIcon from '../../assets/loader.svg';
 
 export const Uploader = () => {
     return (
