@@ -1,0 +1,49 @@
+.page {
+    width: auto;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0;
+}
+
+.body {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.submitButton {
+    height: 80px;
+    border-radius: 25px;
+    padding: 15px 27px;
+    background: #2AE881;
+    border: none;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 110%;
+    text-align: center;
+    color: #201B10;
+    margin-right: 20px;
+}
+
+.clearButton {
+    height: 80px;
+    border-radius: 25px;
+    padding: 15px 27px;
+    background: #201B10;
+    border: none;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 110%;
+    text-align: center;
+    color: #fff;
+}
