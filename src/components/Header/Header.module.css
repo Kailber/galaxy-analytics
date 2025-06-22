@@ -1,0 +1,90 @@
+.header {
+    width: 1840px;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoName {
+    width: 832px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    width: 268px;
+    height: 59px;
+}
+
+.nameFrame {
+    width: 524px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.77px 6.37px;
+    background: #cb81ff;
+}
+
+.nameText {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 90%;
+    letter-spacing: 0;
+    color: #201B10;
+}
+
+.menu {
+    width: 784px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuItem {
+    position: relative;
+    text-decoration: none;
+}
+
+.menuItemContent {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuIcon {
+    width: 35px;
+    margin: 0;
+    height: 35px;
+}
+
+.menuText {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 0;
+    color: #201B10;
+    text-align: center;
+    margin: 0;
+}
+
+.underline {
+    width: 251px;
+    height: 2px;
+    border-radius: 30px;
+    background: #201B10;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: none;
+}
+
+.menuItem.active .underline {
+    display: block;
+}

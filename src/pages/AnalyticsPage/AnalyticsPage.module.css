@@ -1,0 +1,31 @@
+.page {
+    width: auto;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0;
+}
+
+.body {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #cb81ff;
+    padding: 10px;
+    width: 100%;
+}
